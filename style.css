@@ -164,11 +164,15 @@ footer {
     font-size: 15px;
     word-spacing: 2px;
     text-transform: capitalize;
-    color: aqua;
+    color: rgb(29, 55, 55);
 }
 
 .footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 10;
+}
+
+#name {
+    color: rgb(0, 255, 255);
 }
