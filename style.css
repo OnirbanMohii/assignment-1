@@ -24,33 +24,18 @@ body {
 
 .button {
     text-decoration: none;
-    background-color: #e5c71edb;
+    background-color: rgb(225, 225, 21);
     font-size: 20px;
     border-radius: 10px;
-    padding: 2px;
-}
-}
-
-*/
-
-/* .button {
-    text-decoration: none;
-    background-color: rgb(245, 219, 70);
-    /* padding: 8px 15px; */
-/* font-size: 20px; */
-.button {
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 50px;
-    background-color: rgb(231, 200, 23);
-    font-size: 16px;
+    padding: 2px 10px;
     box-shadow: .1px .1px 3px gray;
-
-
 }
+
+
+
 
 .button:hover {
-    box-shadow: 1px 1px 5px #8e35b8;
+    box-shadow: 1px 1px 5px gray;
 }
 
 .display {
@@ -151,11 +136,37 @@ img {
 
 /* -------------------------footer ----------------------*/
 footer {
-    text-align: center;
+    margin: 0;
     background-color: black;
-    color: antiquewhite;
+    color: aliceblue;
+    height: auto;
+    font-family: "open sans";
+
 }
 
-#numbar {
-    margin-left: 30%;
+.footer-content {
+    /* text-align: center; */
+    /* width: 5px; */
+}
+
+#heading {
+    text-align: center;
+    font-size: 70px;
+    color: aqua;
+}
+
+.footer-bottom {
+    background-color: rgba(55, 54, 54, 0.216);
+    padding: 5px 0;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: aqua;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 10;
 }
