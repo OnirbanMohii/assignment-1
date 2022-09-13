@@ -153,7 +153,7 @@ footer {
 #heading {
     text-align: left;
     /* text-align: center; */
-    font-size: 70px;
+    font-size: 60px;
     color: aqua;
 }
 
@@ -164,13 +164,18 @@ footer {
     font-size: 15px;
     word-spacing: 2px;
     text-transform: capitalize;
-    color: rgb(29, 55, 55);
+    /* color: rgb(29, 55, 55); */
+    padding-top: 50px;
 }
 
 .footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 10;
+    padding-top: 20px;
+    block: same line
+        /* margin-top: 20%; */
+        /* padding-top: 20%; */
 }
 
 #name {
